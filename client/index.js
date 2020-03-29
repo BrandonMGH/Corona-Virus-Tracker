@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+//** COMPONENTS **//
+import App from './src/app.js'
+
 const Index = () => {
  return (
     <div>
-        Index
+        <App />
     </div>
  )
   
