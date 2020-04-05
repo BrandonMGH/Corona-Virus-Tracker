@@ -1,5 +1,5 @@
 {
-  "name": "Mars-Weather-App",
+  "name": "Covid-19-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,10 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "bulma": "^0.8.1",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.0.1"
+    "react-dom": "^16.13.1"
   }
 }
