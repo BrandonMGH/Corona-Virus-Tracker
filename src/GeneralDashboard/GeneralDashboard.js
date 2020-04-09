@@ -24,8 +24,8 @@ const GeneralDashboard = () => {
         setCovidCases(covidCasesData.cases);
         setCovidDeaths(covidCasesData.deaths);
         setCovidRecovered(covidCasesData.recovered);
-      } catch (error) {
-        console.log(error);
+      } catch (err) {
+        console.log(err);
       }
     };
     getData();
