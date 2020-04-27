@@ -8,7 +8,7 @@ const GeneralDashboard = () => {
   const [covidCasesChange, setCovidCasesChange] = useState(5);
   const [covidDeathChange, setCovidDeathChange] = useState(0);
   const [covidRecoveredChange, setCovidRecoveredChange] = useState(2);
-  const [covidRange, setCovidRange] =useState(null)
+  
 
   useEffect(() => {
     const getData = async () => {
